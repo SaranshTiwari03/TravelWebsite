@@ -1,0 +1,140 @@
+        #pla::after,#cust::after,#all::after{
+            content:"++";
+        }
+        .sturecord{
+            border: 2px solid black;
+        }
+        #dash{
+            margin-left: 300px;
+            display: flex;
+            justify-content: center;
+        }
+        #dash div{
+            width: 200px;
+            font-size: 60px;
+            margin: 30px;
+            box-shadow: 20px 0px 50px silver;
+        }
+        h1{
+            margin: 0px;
+        }
+        .buttadmin{
+            padding:13px;
+            margin-left: 40px ;
+            background-color: #4caf50;
+            color: aliceblue;
+            width: 120px;   
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        #lo{
+            margin-left: -20px;
+            padding: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            background-color: #4caf50 ;
+            border-radius: 0px;
+        }
+        #searchfilter{
+            width: 200px;
+            height: 40px;
+            border: 1px solid black;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        
+        .search-bar button i{
+            font-size: 15px;
+            
+        }
+        
+        .search-bar input::placeholder{
+            font-family: 'Open Sans', sans-serif ;
+            color:black;
+            font-weight: 600;
+            border: 1px solid transparent;
+        }
+        
+        .search-bar button {
+            margin-left:-5px;
+            background-color: #fff;
+            border: none;
+            padding: 0.5em;
+            cursor: pointer;
+            height: 40px;
+            border-top-right-radius:10px ;
+            border-bottom-right-radius:10px ;
+            border: 1px solid black;
+            border-left:transparent;
+        
+        }
+
+        .recs{
+            padding: 20px;
+            display: flex;
+            width:100%;
+            justify-content: center;
+            background-color: rgb(28, 27, 27,0.7);
+        }
+
+
+        /* update part od form */
+         #updateform{
+            display:none;
+            align-items: center;
+            background-color: rgb(255, 255, 255,0.85);
+            width: 60%;
+            padding: 30px;
+            margin-left: 400px;
+         }
+      
+          .form-label {
+            display: block;
+            margin-bottom: 8px;
+          }
+      
+          .form-input {
+            width: calc(70% - 16px);
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+          }
+      
+          .form-button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 30%;
+          }
+      
+          .form-button:hover {
+            background-color: #45a049;
+          }
+
+          .update:hover{
+            background-color: #45a049;
+            color: white;
+            transition-duration: 0.7s;
+          }
+          .delete:hover{
+            background-color: rgb(241, 32, 32);
+            color: white;
+            transition-duration: 0.7s;
+          }
+
+         .search-bar input {
+            margin-top: 20px;
+            margin-left:20px ;
+            padding: 0.5em;
+            border: 1px solid transparent;
+            width: 140px;
+            height: 25px;
+            border-top-left-radius:10px ;
+            border-bottom-left-radius:10px ;
+            border: 1px solid black;
+            border-right:transparent;
+        }
+

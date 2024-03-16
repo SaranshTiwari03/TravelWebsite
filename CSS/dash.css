@@ -1,0 +1,60 @@
+html{
+    overflow-x:hidden ;
+
+}
+
+body{
+    margin: 0px;
+    padding:0px ;
+    background-image: url("../IMAGES/1.4\ design\ flip@2x.png");
+}
+aside ul li img{
+    border-radius: 50%;
+}
+
+aside ul li{
+    list-style-type: none;
+    padding: 20px 50px 20px 20px;
+}
+aside ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+aside ul li a:hover{
+    color:#4caf50;
+    transition-duration: 0.8s;
+}
+aside{
+    background-color: black;
+    float: left;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    font-family: 'Vollkorn', serif;
+
+}
+#ad{
+    font-family: 'Vollkorn', serif;
+    width: 100%;
+    padding: 20px;
+    font-size: 44px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    
+}
+#sturecord{
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255,0.8);
+}
+
+#change{
+    border: 2px solid white;
+}
+
+p{
+    font-size: 30px;
+}

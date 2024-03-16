@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../IMAGES/square white green.png">
+    <title>WandEazy</title>
+    <link rel="stylesheet" href="../CSS/dash.css">
+    <link rel="stylesheet" href="../CSS/record.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Nunito&family=Open+Sans&family=Raleway&family=Vollkorn&display=swap" rel="stylesheet">
+  
+    <style>
+        #pla::after,#cust::after,#all::after{
+            content:"++";
+        }
+        #dash{
+            width:80%;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(255, 255, 255,0.8);
+        }
+        #dash .data div{
+            width: 200px;
+            font-size: 60px;
+            margin: 30px;
+            box-shadow: 20px 0px 50px silver;
+        }
+        h1{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body onload="dashboarddata(), dpchange()">
+    <aside>
+        <ul>
+            <li><a href="#"><img width="100px" id="change" src="../IMAGES/square white green.png" alt=""></a></li>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+            <li><a href="./record.html">Records</a></li>
+            <li><a href="#">Insert</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="./index.html">Main Site</a></li>
+            <li><a id="lo" href="login.html"> Log Out</a></li>
+        </ul>
+    </aside>
+
+    <center>
+        <h1 id="ad">ADMIN DASHBOARD</h1>
+    </center>
+    <section id="dash">
+        <div class="data">
+            <p>Planner</p>
+            <div id="pla"></div>
+        </div>
+        <div class="data">
+            <p>Customer</p>
+            <div id="cust"></div>
+        </div>
+        <div class="data">
+            <p>All</p>
+            <div id="all"></div>
+        </div>
+        
+        
+    </section>
+
+    <script src="../JS/dash.js">
+        
+    </script>
+
+</body>
+</html>

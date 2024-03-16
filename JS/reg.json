@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "login": [
+    {
+      "names": "Saransh Tiwari",
+      "email_add": "saransh.3241@gmail.com",
+      "password": "1425",
+      "confirm_pass": "1425",
+      "role": "planner",
+      "imgs": "https://media-pnq1-1.cdn.whatsapp.net/v/t61.24694-24/297612837_591472492554218_4254129096019205052_n.jpg?ccb=11-4&oh=01_AdTETxG7kDetL3b48gjBNK2FCTn9kN36dtzZd1mSKbQoVw&oe=658C0239&_nc_sid=e6ed6c&_nc_cat=110",
+      "id": 1
+    },
+    {
+      "names": "Manas",
+      "email_add": "tiwari.manas28@gmail.com",
+      "password": "123456",
+      "confirm_pass": "123456",
+      "role": "customer",
+      "imgs": "",
+      "id": 2
+    },
+    {
+      "names": "Saransh Tiwari",
+      "email_add": "admin@gmail.com",
+      "password": "Saransh@24",
+      "confirm_pass": "Saransh@24",
+      "role": "admin",
+      "imgs": "https://cdn.hero.page/pfp/e8eede59-3cdb-426f-96a4-dc997fc360c9-modern-samurai-anime-boy-4k-anime-boy-profile-picture-2.png",
+      "id": 3
+    },
+    {
+      "names": "Manas",
+      "email_add": "tiwari.manas28@gmail.com",
+      "password": "123456",
+      "confirm_pass": "123456",
+      "role": "customer",
+      "imgs": "",
+      "id": 4
+    },
+    {
+      "names": "Mansi Neekhra",
+      "email_add": "mansi@gmail.com",
+      "password": "123456",
+      "confirm_pass": "123456",
+      "role": "planner",
+      "imgs": "https://images.wallpaperscraft.com/image/single/girl_face_sad_216850_3415x3415.jpg",
+      "id": 5
+    },
+    {
+      "names": "saranshtiwari",
+      "email_add": "saransh.channel@gmail.com",
+      "password": "123654",
+      "confirm_pass": "123654",
+      "role": "planner",
+      "imgs": "https://media-pnq1-1.cdn.whatsapp.net/v/t61.24694-24/297612837_591472492554218_4254129096019205052_n.jpg?ccb=11-4&oh=01_AdTETxG7kDetL3b48gjBNK2FCTn9kN36dtzZd1mSKbQoVw&oe=658C0239&_nc_sid=e6ed6c&_nc_cat=110",
+      "id": 6
+    },
+    {
+      "names": "pk",
+      "email_add": "parulkurmi@gmail.com",
+      "password": "1234",
+      "confirm_pass": "1234",
+      "role": "planner",
+      "imgs": "../",
+      "id": 7
+    },
+    {
+      "names": "Saransh Tiwari",
+      "email_add": "saransh.personal24@gmail.com",
+      "password": "14526",
+      "confirm_pass": "14526",
+      "role": "customer",
+      "imgs": "https://media-pnq1-1.cdn.whatsapp.net/v/t61.24694-24/297612837_591472492554218_4254129096019205052_n.jpg?ccb=11-4&oh=01_AdTETxG7kDetL3b48gjBNK2FCTn9kN36dtzZd1mSKbQoVw&oe=658C0239&_nc_sid=e6ed6c&_nc_cat=110",
+      "id": 8
+    }
+  ]
+}

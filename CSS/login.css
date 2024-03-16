@@ -1,0 +1,234 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Vollkorn', serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.bg1st{
+    height: 92vh;
+    background-image:url("../IMAGES/1.4\ design@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif ;
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    position: absolute;
+}
+.navbar:hover{
+    background-color: rgb(255, 255, 255,0.6);
+    transition-duration: 1s;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0,1);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+    color:black;
+}
+
+.nav-links {
+    display: flex;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0,0.8);
+    margin: 0 2em;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.9s;
+}
+
+
+.nav-links a:hover {
+    color: #4caf50;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+   
+}
+
+.search-bar input {
+    padding: 0.5em;
+    border: 1px solid transparent;
+    width: 100px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border: 1px solid black;
+    border-right:transparent;
+}
+
+.search-bar button i{
+    font-size: 16px;
+    
+}
+
+.search-bar input::placeholder{
+    font-family: 'Open Sans', sans-serif ;
+    color:black;
+    font-weight: 600;
+}
+
+.search-bar button {
+    background-color: #fff;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    height: 30px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border: 1px solid black;
+    border-left:transparent;
+
+}
+.search-bar2{
+    display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .navbar{
+        position: relative;
+        width:50%;
+    }
+    .nav-links a{
+        margin: 0 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .navbar .logo, .navbar .nav-links {
+        width: 100%;
+    }
+
+    .navbar .menu-icon {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .nav-links {
+        display: none;
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        border: 1px solid black;
+        
+    }
+
+    .nav-links.show {
+        display: flex;
+        
+    }
+
+    .nav-links a {
+        margin:4px;
+    }
+
+    .navbar .nav-links a i {
+        display: none;
+    }
+
+    .drop{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+   
+    #form-container{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: -80px;
+    }
+    .search-bar{
+        display: none;
+    }
+        
+    .search-bar2 {
+        display: flex;
+        align-items: center;
+        margin-right: 25%;
+    }
+
+    .search-bar2 input {
+        padding: 0.5em;
+        border: 1px solid transparent;
+        width: 100px;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius:10px ;
+        border: 1px solid black;
+        border-right:transparent;
+        
+    }
+
+    .search-bar2 button i{
+        font-size: 16px;
+        
+    }
+
+    .search-bar2 input::placeholder{
+        font-family: 'Open Sans', sans-serif ;
+        color:black;
+        font-weight: 600;
+    }
+
+    .search-bar2 button {
+        background-color: #fff;
+        border: none;
+        padding: 0.5em;
+        cursor: pointer;
+        height: 30px;
+        border-top-right-radius:10px ;
+        border-bottom-right-radius:10px ;
+        border: 1px solid black;
+        border-left:transparent;
+
+    }
+
+}
+

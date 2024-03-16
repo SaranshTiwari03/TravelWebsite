@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../IMAGES/square white green.png">
+    <title>WandEazy</title>
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Nunito&family=Open+Sans&family=Raleway&family=Vollkorn&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/carousel.css">
+  <link rel="stylesheet" href="../CSS/tripcard.css">
+   <style>
+    .icn1{
+        margin-top: -15px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    #icn1{
+        padding: 10px;
+    }
+    #hep{
+        width:900px
+    }
+    #heh{
+        width:900px
+    }
+    #lo{
+        width: 80px;
+        padding: 10px;
+        background-color: #4caf50 ;
+        color:white;
+        border-radius: 15px;
+        font-weight: 500;
+        margin-top: -10px;
+    }
+    @media screen and (max-width: 768px){
+        #icn1{
+        display: none;
+    }#lo{
+        width: 100%;
+        padding: 1px;
+        padding-bottom: 5px;
+        background-color: #4caf50 ;
+        border-radius: 0px;
+        margin-left: -0.5px;
+    }
+    #hep{
+        width:400px
+    }
+    #heh{
+        width:400px
+    }
+    }
+   
+   </style>
+</head>
+<body>
+    
+        <div class="top">
+            <nav class="navbar">
+                <div class="drop" >  
+                    <div class="logo"><a href="./index.html"><img src="../IMAGES/black name big.png" width="150px" alt=""></a></div>
+                    <div class="search-bar2">
+                      <input type="text" placeholder="Search">
+                      <button class="search-button"><i class="fas fa-search"></i></button>
+                  </div>
+                  <div class="menu-icon">&#9776;</div>
+                </div>
+                  <!-- <div class="search-bar">
+                      <input type="text" placeholder="Search">
+                      <button class="search-button"><i class="fas fa-search"></i></button>
+                  </div> -->
+                  <div style="display: flex;flex-direction: row;" class="icn1">
+                    <div id="icn1" class="icons1"><i class="fa-brands fa-facebook"></i></div>
+                    <div id="icn1"  class="icons2"><i class="fa-brands fa-youtube" ></i></div>
+                    <div id="icn1"  class="icons3"><i class="fa-brands fa-instagram" ></i></div>
+                    <div id="icn1"  class="icons4"><i class="fa-brands fa-twitter" ></i></div>
+                 </div>
+                  <div class="nav-links">
+                      
+                      <a href="#"> About</a>
+                      <a href="#"> Contact</a>
+                      <a href="reg.html">Blog</a>
+                      <a style="display: inline;" href="reg.html">Welcome User </i></a>
+                      <a href=""><i class="fa-solid fa-user" style="color: #0a0a0a;"></i></a>
+                      <a id="lo" href="login.html"> Log Out</a>
+                  </div>
+              </nav>
+            </div>
+
+<!-- carousel part of the page -->
+        <center>
+            <div id="carousel-container">
+                <div class="carousel-wrapper">
+                  <div class="carousel-slide">
+                    <img src="../IMAGES/quotes 3.png" alt="Image 1">
+                    <div class="carousel-text"><a href="">View</a></div>
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="../IMAGES/quotes 2.png" alt="Image 2">
+                    <div class="carousel-text"><a href="">View</a></div>
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="../IMAGES/quotes 1.png" alt="Image 3">
+                    <div class="carousel-text"><a href="">View</a></div>
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="../IMAGES/quotes 4.png" alt="Image 3">
+                    <div class="carousel-text"><a href="">View</a></div>
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="../IMAGES/quotes 5.png" alt="Image 3">
+                    <div class="carousel-text"><a href="">View</a></div>
+                  </div>
+                </div>
+              
+                <button id="prev-btn" onclick="prevSlide()">◀</button>
+                <button id="next-btn" onclick="nextSlide()">▶</button>
+              </div>
+        </center>
+<!-- End of carousel part of the page -->
+
+
+<!-- places part of the page -->
+<div class="opth"><h2>Explore such trending destinations</h2></div>
+<div class="opt">
+    <button class="butr" onclick="feapprevious()"><i class="fa-solid fa-chevron-left" style="color: #000000;"></i></button>
+    <div id="show"> 
+            <div class="cards" id="one" >
+                <a href="./trip.html">
+                    <img src="../IMAGES/Agra.jpg" width="250px" alt="1mg">
+                <h4>Agra</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+            <div class="cards" >
+                <a href="">
+                    <img src="../IMAGES/leh.jpg" width="250px" alt="1mg">
+                <h4>Leh Laddakh</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+            <div class="cards"  >
+                <a href="">
+                    <img src="../IMAGES/jaipur.jpg" width="250px" alt="1mg">
+                <h4>Jaipur</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+            <div class="cards"  >
+            <a href="">
+                <img src="../IMAGES/Madhurai.jpg" width="250px" alt="1mg">
+                <h4>Madurai</h4>
+                <p>India</p>
+            </a>
+            </div>
+            <div class="cards" >
+                <a href="">
+                    <img src="../IMAGES/manglore.jpg" width="250px" alt="1mg">
+                <h4>Mangluru</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+            <div class="cards">
+                <a href="">
+                    <img src="../IMAGES/Mysore.jpg" width="250px" alt="1mg">
+                <h4>Mysore</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+            <div class="cards" >
+                <a href="">
+                    <img src="../IMAGES/shimla.jpg" width="250px" alt="1mg">
+                <h4>Shimla</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+    
+    </div>
+    <button class="butl" onclick="feapnext()"> <i class="fa-solid fa-chevron-right" style="color: #000000;"></i> </button>
+</div>
+
+<!-- first set of trip destination ended -->
+
+<!-- logos part of the page -->
+
+
+<center>
+    <div class="lgo">
+    <p class="hep">As a nature lover</p>
+    <h2 class="heh"  >We want you to enjoy the bush, beach and garden with our quality services</h2>
+<div class="serv">
+    <div class="comp">
+        <a href=""><img src="../../IMAGES/tent.png" alt=""></a>
+        <span class="c1">Tents</span>
+        <span class="c2">3 items</span>
+    </div>
+    <div class="comp">
+        <a href=""><img src="../../IMAGES/lamp.png" alt=""></a>
+        <span class="c1">Decorations</span>
+        <span class="c2">2 items</span>
+    </div>
+    <div class="comp">
+        <a href=""><img src="../../IMAGES/planning.png" alt=""></a>
+        <span class="c1">Planners</span>
+        <span class="c2">10 items</span>
+    </div>
+    <div class="comp">
+        <a href=""><img src="../../IMAGES/blanket.png" alt=""></a>
+        <span class="c1">Essentials</span>
+        <span class="c2">3 items</span>
+    </div>
+    <div class="comp">
+        <a href=""><img src="../../IMAGES/gift-box.png" alt=""></a>
+        <span class="c1">Gifts</span>
+        <span class="c2">5 items</span>
+    </div>
+</div>
+</div> 
+</center>
+
+<!--End of logos part of the page -->
+
+<div class="opth"><h2>This is heading for trip</h2></div>
+<div class="opt">
+    <button class="butr" onclick="prevcard()"><i class="fa-solid fa-chevron-left" style="color: #000000;"></i></button>
+    <div id="show"> 
+        <div class="cards" id="two" >
+            <a href="">
+                <img src="../IMAGES/amsterdam.jpg" width="250px" alt="1mg">
+            <h4>Amsterdam</h4>
+            <p>Netherlands</p>
+            </a>
+            
+        </div>
+        <div class="cards"  >
+            <a href="">
+                <img src="../IMAGES/singapore.webp" width="250px" alt="1mg">
+            <h4>Singapore City</h4>
+            <p>Singapore</p>
+            </a>
+            
+        </div>
+        <div class="cards" >
+            <a href="">
+                <img src="../IMAGES/London.jpg" width="250px" alt="1mg">
+            <h4>London</h4>
+            <p>United Kingdoms</p>
+            </a>
+            </div>
+            <div class="cards" >
+                <a href="">
+                    <img src="../IMAGES/Dubai.jpg" width="250px" alt="1mg">
+                <h4>Dubai</h4>
+                <p>India</p>
+                </a>
+                
+            </div>
+            <div class="cards" >
+                <a href="">
+                    <img src="../IMAGES/Sydney.jpg" width="250px" alt="1mg">
+                <h4>Sydney</h4>
+                <p>Australia</p>
+                </a>
+                
+            </div>
+            <div class="cards">
+                <a href="">
+                    <img src="../IMAGES/washington.jpg" width="250px" alt="1mg">
+                <h4>Washington DC</h4>
+                <p>America</p>
+                </a>
+                
+            </div>
+            <div class="cards" >
+                <a href="">
+                    <img src="../IMAGES/mexico.jpg" width="250px" alt="1mg">
+                <h4>Mexico</h4>
+                <p>South America</p>
+                </a>
+                
+            </div>
+        
+    </div>
+    <button class="butl" onclick="nextcard()"> <i class="fa-solid fa-chevron-right" style="color: #000000;"></i> </button>
+</div>
+
+<!-- End of  places part of the page -->
+
+<!-- Images part of the page -->
+
+    <div class="a">
+        <center><p class="hep" id="hep"  >Explore <br>the best possible trips with us</p>
+        <h2 class="heh" id="heh"  >Embark on unforgettable journeys with Wandeazy, where every destination becomes a story, and every experience is a chapter in your travel adventure.</h2>
+    </center>
+        <div class="poster">
+            <div class="one one1">
+                <img src="../IMAGES/pexels-bhavitya-indora-3224533.jpg" width="400px" alt="">
+                <div class="det">
+                    <h1>Lorem ipsum <br> dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus pariatur, consequatur accusamus aliquam modi assumenda, maxime minima voluptates rem delectus a placeat fugiat esse nulla odio rerum quaerat, aspernatur officia!</p>
+                    <br>
+                    <br><a class="view" href="">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="one one2">
+            <div class="det">
+                <h1>Lorem ipsum <br> dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus pariatur, consequatur accusamus aliquam modi assumenda, maxime minima voluptates rem delectus a placeat fugiat esse nulla odio rerum quaerat, aspernatur officia!</p>
+                <br>
+                    <br><a class="view" href="">View Details</a>
+            </div>
+            <img src="../IMAGES/view2.jpeg" width="400px" alt="">
+            
+        </div>
+
+    </div>
+
+<!-- Footer part of the page -->
+            <div class="ff">
+                <div class="footer">
+                  <div class="img">
+                      <a href="./front.html"><img id="fimg" src="../IMAGES/white green name big.png" width="170px"  alt="no img"></a>
+                              </div>
+                          <div class="L1">            </div>
+                              <div class="icn">
+                                  <div id="icn" class="icons1"><i class="fa-brands fa-facebook" ></i></div>
+                                  <div id="icn"  class="icons2"><i class="fa-brands fa-youtube" ></i></div>
+                                  <div id="icn"  class="icons3"><i class="fa-brands fa-instagram" ></i></div>
+                                  <div id="icn"  class="icons4"><i class="fa-brands fa-twitter" ></i></div>
+                               </div>
+              </div>
+              <center><div class="L2"></div></center>
+              <div class="footerl" >
+                  <p> <a href="">Terms of service</a>&nbsp;&nbsp;&nbsp;<a href="">DMCA</a>&nbsp;&nbsp;&nbsp; <a href="">Contact</a>&nbsp;&nbsp;&nbsp;<a href="">WandEazy App</a>  
+                  </p><br>
+                 <p>Embark on unforgettable journeys with Wandeazy, where every destination becomes a story, and every experience is a chapter in your travel adventure.</p>
+                  <h4>© Wandeazy.xyz All rights reserved.</h4>
+              </div>
+            </div>
+          
+            <script src="../JS/nav.js"></script>
+            <script src="../JS/carousel.js"></script>
+            <script src="../JS/tripcard.js"></script>
+
+</body>
+</html>

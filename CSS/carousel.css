@@ -1,0 +1,101 @@
+
+
+  #carousel-container {
+    position: relative;
+    z-index: 1;
+    width: 1900px;
+    height: 950px;
+    overflow: hidden;
+    
+    margin-bottom: 50px;
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+  }
+
+  .carousel-slide {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+
+  .carousel-slide img {
+    
+    
+    width: 100%;
+    
+    
+  }
+
+  .carousel-text{
+    position: absolute;
+    padding:13px;
+    margin-left: 220px;
+    background-color: white;
+    width: 120px;   
+    font-size: 20px;
+    border-radius: 10px;
+    top: 540px;
+   
+  }
+  .carousel-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .carousel-text:hover{
+    background-color: #4caf50;
+    transition-duration: 1s;
+  } 
+
+  .carousel-text:hover a{
+    color: white;
+    transition-duration: 1s;
+  } 
+
+  #prev-btn, #next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color:rgb(255, 255, 255,0.6);
+    border-radius: 100%;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+
+  #prev-btn {
+    left: 10px;
+  }
+
+  #next-btn {
+    right: 10px;
+  }
+
+  @media screen and (max-width: 1400px){
+    #carousel-container {
+      position: relative;
+      width: 880px;
+      height: 460px;
+      overflow: hidden;
+      border-radius: 15px;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    #carousel-container {
+      position: relative;
+      width: 480px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 15px;
+      margin-bottom: 50px;
+    }
+  }
